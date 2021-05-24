@@ -428,7 +428,10 @@ li {
 }
 
 .section.fullwidth.advisory_board {
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding-right: 5%;
   padding-left: 5%;
 }
@@ -695,7 +698,7 @@ li {
 }
 
 .card_header {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   font-size: 40px;
   line-height: 50px;
 }
@@ -924,7 +927,7 @@ li {
 }
 
 .l_paragraph {
-  margin-top: 20px;
+  margin-top: 0px;
   font-size: 20px;
   line-height: 32px;
   font-weight: 500;
@@ -1787,6 +1790,7 @@ li {
   width: 100%;
   max-width: 1400px;
   margin-right: auto;
+  margin-bottom: 50px;
   margin-left: auto;
 }
 
@@ -1964,6 +1968,16 @@ li {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.div-block-92 {
+  width: 100%;
+  max-width: 1400px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media screen and (min-width: 1920px) {
@@ -2525,7 +2539,7 @@ li {
     max-height: 800px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(7, 17, 37, 0.8)), to(rgba(7, 17, 37, 0.8))), url('../images/vlad-sargu-ItphH2lGzuI-unsplash-2-1.png');
     background-image: linear-gradient(180deg, rgba(7, 17, 37, 0.8), rgba(7, 17, 37, 0.8)), url('../images/vlad-sargu-ItphH2lGzuI-unsplash-2-1.png');
-    background-position: 0px 0px, 100% 50%;
+    background-position: 0px 0px, 50% 50%;
     background-size: auto, cover;
   }
 
