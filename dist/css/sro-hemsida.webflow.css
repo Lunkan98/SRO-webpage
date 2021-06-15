@@ -2282,6 +2282,10 @@ li {
     background-repeat: repeat;
   }
 
+  .team_card.ke {
+    background-size: 100%;
+  }
+
   .team_text {
     width: auto;
     margin-top: 80vw;
@@ -2471,6 +2475,11 @@ li {
 
   .team_card.gunnar {
     background-position: 50% -250px;
+  }
+
+  .team_card.ke {
+    background-position: 50% -200px;
+    background-size: 100%;
   }
 
   .l-heading {
